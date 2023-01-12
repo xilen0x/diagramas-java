@@ -1,2 +1,2 @@
-# Example of encapsulation and setter & getters methods
+# Exercise to practise with encapsulation, setter & getters methods, inheritance, etc.
 
