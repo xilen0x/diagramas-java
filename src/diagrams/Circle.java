@@ -10,7 +10,7 @@ public class Circle extends Shape{
 	
 	public Circle(double radius) {
 		this.setRadius(radius);
-		System.out.println("***constructor circle***");
+		//System.out.println("***constructor circle***");
 	}
 	
 	
@@ -19,10 +19,10 @@ public class Circle extends Shape{
 	}
 
 	// METODOS
-//	public double getArea() {
-//		 
-//		return Math.PI * this.radius * this.radius;	
-//	}
+	public double getArea() {
+		 
+		return Math.PI * this.radius * this.radius;	
+	}
 	public double getPerimeter() {
 		
 		return 2 * Math.PI * this.radius;

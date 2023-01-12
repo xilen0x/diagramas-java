@@ -20,7 +20,7 @@ public class Rectangle extends Shape{
 	public Rectangle(double base, double height) {
 		this.setBase(base);
 		this.setHeight(height);
-		System.out.println("***constructor Rectangle***");// esta linea no va; es solo para ver q el constructor se ejecuta
+		//System.out.println("***constructor Rectangle***");// esta linea no va; es solo para ver q el constructor se ejecuta
 	}
 	
 	//---------------- METODOS SETTERS Y GETTERS ----------------
@@ -58,11 +58,11 @@ public class Rectangle extends Shape{
 
 
 	// ---------------- Cálculo del área y perímetro------------------
-//	public double getArea() {
-//				 
-//		return base * height;
-//		
-//	}
+	public double getArea() {
+				 
+		return base * height;
+		
+	}
 	
 	public double getPerimeter() {
 		

@@ -11,7 +11,7 @@ public class Sphere extends Shape{
 	
 	public Sphere(double radius) {
 		this.setRadius(radius);
-		System.out.println("***constructor Sphere***");
+		//System.out.println("***constructor Sphere***");
 	}
 	
 	//---------------- METODOS SETTERS Y GETTERS ----------------
@@ -20,10 +20,10 @@ public class Sphere extends Shape{
 		return this.radius;
 	}
 	
-//	public double getArea() {
-//		
-//		return 4 * Math.PI * Math.pow(this.radius,2);
-//	}
+	public double getArea() {
+		
+		return 4 * Math.PI * Math.pow(this.radius,2);
+	}
 	
 	
 	public void setRadius(double value) {

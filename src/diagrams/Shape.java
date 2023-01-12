@@ -6,10 +6,10 @@ public class Shape {
 	private Color color;//color de las lineas
 	
 	//---------------- BEHAVIORS ---------------------
-	public double getArea() {
-		 
-		return 1.0;
-	}
+//	public double getArea() {
+//		 
+//		return 1.0;
+//	}
 
 	//---------------- METODOS SETTERS Y GETTERS ----------------
 	public Color getBackgroundColor() {
